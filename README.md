@@ -31,7 +31,7 @@
     + Description: Animation of a 3D Cube 
     + Use: Control the colour palette with the first potentiomenter, and the playback velocity with second.
   - Netflix
-    + Description: The netflix presentation in 8 colours and 256 pixels 
+    + Description: The netflix presentation in 8 colours and 256 "pixels" 
     + Use: Control playback velocity with the first potentiometer.
 
 ---
