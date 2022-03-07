@@ -21,8 +21,8 @@ struct Triangles : Program {
     
     for( int i = 0 ; i < 3 ; i++ ) {
 
-      triangle(     0 , WIDTH/2 , map( parameter[ i*2 ] , 0 , 1023 , 0 , 40 ) , ch[i] );
-      triangle( WIDTH , WIDTH/2 , map( parameter[ i*2 ] , 0 , 1023 , 0 , 40 ) , ch[i] );
+      triangle(     0 , WIDTH/2 , map( parameter[ i*2 ] , 0 , 256 , 0 , 40 ) , ch[i] );
+      triangle( WIDTH , WIDTH/2 , map( parameter[ i*2 ] , 0 , 256 , 0 , 40 ) , ch[i] );
 
       copyBuffer( ch[i]->get() , buffer );
       ch[i]->clear();
